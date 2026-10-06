@@ -1,0 +1,241 @@
+import { ContactInfo, Education, Experience, SkillItem, CampaignReportRow } from '../types/portfolio';
+
+export const CANDIDATE_PROFILE: ContactInfo = {
+  fullName: "RABARIMALALA AVONJANAHARY MIORANIAINA",
+  targetRole: "Assistant(e) Marketing",
+  city: "Antananarivo",
+  country: "Madagascar",
+  email: "nmiora59@gmail.com",
+  phone: "+261 34 00 000 00",
+  linkedin: "linkedin.com/in/avonjanahary-mioraniaina",
+  portfolioUrl: "https://portfolio-mioraniaina.mg",
+  availability: "Immédiate — Poste basé à Antananarivo",
+};
+
+export const EDUCATION_LIST: Education[] = [
+  {
+    degree: "Licence en Informatique",
+    institution: "Université Saint Vincent de Paul AKAMASOA",
+    period: "2021 – 2023",
+    highlights: [
+      "Algorithmique, bases de données et conception de systèmes d'information",
+      "Développement web (HTML, CSS, JavaScript) et gestion de projets numériques",
+      "Rigueur logique, analyse de données et résolution méthodique de problèmes",
+    ],
+  },
+  {
+    degree: "Baccalauréat",
+    institution: "Lycée Faneva Ankadindramamy",
+    period: "2020 – 2021",
+    highlights: [
+      "Formation générale avec bases solides en raisonnement logique et communication",
+      "Obtention du diplôme marquant l'entrée dans l'enseignement supérieur",
+    ],
+  },
+];
+
+export const EXPERIENCE_LIST: Experience[] = [
+  {
+    role: "Agent Back Office",
+    company: "YAS",
+    period: "Septembre 2025 – Juin 2026",
+    tasks: [
+      "Vérification et contrôle minutieux des dossiers transmis par le Front Office",
+      "Validation et certification des dossiers conformes selon les critères d'éligibilité",
+      "Préparation de reportings réguliers sur les dossiers traités, en attente, validés ou rejetés",
+      "Application stricte des procédures internes et consignes opérationnelles",
+      "Utilisation quotidienne d'outils et systèmes d'information internes",
+      "Travail exigeant rigueur, organisation et attention constante aux détails",
+    ],
+    transferableSkills: [
+      "Rigueur et contrôle qualité des données marketing",
+      "Élaboration de tableaux de bord et reportings de performance",
+      "Respect strict des plannings de campagne et processus",
+    ],
+  },
+  {
+    role: "Développeur Web",
+    company: "Duroc Consulting",
+    location: "Antanimena, Antananarivo",
+    period: "Avril 2025 – Juillet 2025",
+    tasks: [
+      "Participation à la conception et au développement de solutions web responsives",
+      "Création et intégration d'interfaces web ergonomiques (HTML, CSS, JavaScript)",
+      "Amélioration continue des fonctionnalités selon les retours des utilisateurs finaux",
+      "Correction d'anomalies, débogage et optimisation de l'affichage multi-écrans",
+      "Utilisation quotidienne d'outils numériques collaboratifs et de gestion de versions",
+    ],
+    transferableSkills: [
+      "Autonomie dans la mise à jour de sites web et landing pages marketing",
+      "Compréhension technique de l'expérience utilisateur (UX) et du responsive design",
+      "Intégration fluide de formulaires de contact et boutons d'appel à l'action",
+    ],
+  },
+  {
+    role: "Gestionnaire de dossiers d'appels d'offres",
+    company: "HMD Solution",
+    location: "Ambolonkandrina, Antananarivo",
+    period: "Mai 2024 – Février 2025",
+    tasks: [
+      "Gestion complète et suivi opérationnel des dossiers d'appels d'offres",
+      "Préparation, vérification minutieuse et organisation des pièces administratives et techniques",
+      "Suivi rigoureux des calendriers de dépôt et des échéances critiques",
+      "Respect strict des cahiers des charges et des procédures institutionnelles",
+    ],
+    transferableSkills: [
+      "Coordination documentaire sans faille pour les lancements de campagnes",
+      "Gestion du temps et respect absolu des délais impartis",
+      "Capacité de synthèse et mise en forme soignée des documents de présentation",
+    ],
+  },
+];
+
+export const SKILLS_LIST: SkillItem[] = [
+  {
+    id: "communication",
+    title: "Communication",
+    description: "Rédaction claire, synthétique et soignée. Écoute active et transmission fluide des consignes entre services opérationnels.",
+    level: "Avancé",
+    marketingApplication: "Rédaction de textes promotionnels percutants, modération bienveillante des réseaux sociaux et communication inter-équipes.",
+  },
+  {
+    id: "organisation",
+    title: "Organisation & Gestion documentaire",
+    description: "Classement méthodique, structuration rigoureuse des fichiers et archivage systématique des ressources.",
+    level: "Expert",
+    marketingApplication: "Gestion des banques d'images, des plannings éditoriaux, des contrats de partenariats et des fiches produits.",
+  },
+  {
+    id: "creation-contenu",
+    title: "Création de contenus numériques",
+    description: "Conception visuelle moderne, harmonisation graphique, respect des chartes et adaptation des formats d'affichage.",
+    level: "Intermédiaire +",
+    marketingApplication: "Création de visuels pour réseaux sociaux, bannières publicitaires, carrousels et supports de présentation.",
+  },
+  {
+    id: "outils-informatiques",
+    title: "Outils informatiques & Collaboratifs",
+    description: "Maîtrise de la suite bureautique (Excel/Sheets, Word/Docs, PowerPoint), Google Workspace et outils de gestion de projet.",
+    level: "Expert",
+    marketingApplication: "Tableaux de bord automatisés, planification de tâches partagées et gestion administrative fluide du département.",
+  },
+  {
+    id: "web-digital",
+    title: "Web & Technologies digitales",
+    description: "Connaissances solides en HTML5, CSS3, JavaScript, structure de pages web et ergonomie mobile.",
+    level: "Avancé",
+    marketingApplication: "Mise à jour directe du site web de l'entreprise, intégration de landing pages et dialogue efficace avec les développeurs.",
+  },
+  {
+    id: "reporting-suivi",
+    title: "Reporting & Suivi de performance",
+    description: "Collecte de données, calcul d'indicateurs de performance (KPIs), mise en forme claire et formulation de synthèses exploitables.",
+    level: "Avancé",
+    marketingApplication: "Suivi des statistiques de réseaux sociaux (portée, clics, taux d'engagement) et bilan d'impact des actions marketing.",
+  },
+  {
+    id: "recherche-info",
+    title: "Recherche & Traitement d'informations",
+    description: "Veille stratégique, analyse concurrentielle, vérification des sources et synthèse critique des données recueillies.",
+    level: "Avancé",
+    marketingApplication: "Benchmark de concurrents locaux à Antananarivo, veille sur les tendances de consommation et détection d'opportunités.",
+  },
+  {
+    id: "travail-equipe",
+    title: "Travail en équipe & Coordination",
+    description: "Esprit de coopération, flexibilité relationnelle et sens du service éprouvé auprès d'équipes pluridisciplinaires.",
+    level: "Avancé",
+    marketingApplication: "Liaison efficace entre la direction commerciale, l'équipe marketing et les prestataires externes.",
+  },
+  {
+    id: "respect-delais",
+    title: "Respect des délais & Rétroplanning",
+    description: "Anticipation des échéances, priorisation intelligente des urgences et respect scrupuleux des calendriers fixés.",
+    level: "Expert",
+    marketingApplication: "Publication ponctuelle des campagnes, envoi régulier des newsletters et tenue des échéanciers événementiels.",
+  },
+  {
+    id: "sens-detail",
+    title: "Sens du détail & Rigueur",
+    description: "Contrôle qualité systématique, traque des fautes d'orthographe ou incohérences visuelles et respect strict des procédures.",
+    level: "Expert",
+    marketingApplication: "Garantie d'une image de marque irréprochable avant toute diffusion publique ou envoi client.",
+  },
+];
+
+export const CAMPAIGN_REPORT_DATA: CampaignReportRow[] = [
+  {
+    id: "cmp-01",
+    campaign: "Lancement Offre 'Pack Visibilité PME'",
+    channel: "Facebook & Instagram",
+    date: "10/09/2026 – 24/09/2026",
+    status: "Terminée",
+    reach: "18 450 personnes",
+    engagement: "1 240 interactions (6,7%)",
+    conversion: "38 demandes devis",
+    resultSummary: "Objectif atteint à 120%. Fort intérêt pour l'accompagnement digital clé en main.",
+    nextAction: "Relancer les prospects tièdes via email & programmer un carrousel d'avis clients.",
+  },
+  {
+    id: "cmp-02",
+    campaign: "Newsletter Mensuelle #04 — Tendances Tanà",
+    channel: "Email Marketing (B2B)",
+    date: "18/09/2026",
+    status: "Terminée",
+    reach: "850 abonnés ciblés",
+    engagement: "Taux ouv. : 34,2% / Clics : 8,5%",
+    conversion: "12 prises de RDV",
+    resultSummary: "Excellent taux d'ouverture supérieur à la moyenne sectorielle (21%).",
+    nextAction: "Tester un objet personnalisé avec le prénom du contact pour la prochaine édition.",
+  },
+  {
+    id: "cmp-03",
+    campaign: "Webinaire / Démo en direct : 'Gérer son e-réputation'",
+    channel: "LinkedIn & WhatsApp Pro",
+    date: "01/10/2026 – 15/10/2026",
+    status: "En cours",
+    reach: "6 200 vues",
+    engagement: "420 interactions",
+    conversion: "54 inscriptions validées",
+    resultSummary: "Dynamique positive sur LinkedIn auprès des directeurs et gérants d'entreprises.",
+    nextAction: "Envoyer un rappel J-2 avec lien d'accès et récapitulatif du programme.",
+  },
+  {
+    id: "cmp-04",
+    campaign: "Campagne Rentrée Professionnelle : 'Audit de site web offert'",
+    channel: "Site Web & Landing Page",
+    date: "20/10/2026 – 05/11/2026",
+    status: "Planifiée",
+    reach: "Objectif : 10 000 vues",
+    engagement: "Cible : 500 clics CTA",
+    conversion: "Cible : 25 audits",
+    resultSummary: "Préparation des maquettes graphiques et du formulaire de capture terminée.",
+    nextAction: "Vérifier la conformité du tracking Google Analytics et tester la soumission mobile.",
+  },
+  {
+    id: "cmp-05",
+    campaign: "Valorisation Savoir-Faire Artisanal Malgache",
+    channel: "Réseaux Sociaux (Story & Reels)",
+    date: "12/11/2026 – 25/11/2026",
+    status: "Planifiée",
+    reach: "Objectif : 25 000 vues",
+    engagement: "Cible : 1 800 réactions",
+    conversion: "Cible : 60 partages",
+    resultSummary: "Plan de tournage court et grille éditoriale rédigée.",
+    nextAction: "Valider les droits d'image et caler les sous-titres bilingues (Français / Malagasy).",
+  },
+];
+
+export const PORTFOLIO_SECTIONS = [
+  { id: 1, title: "Couverture", subtitle: "Présentation générale" },
+  { id: 2, title: "À propos de moi", subtitle: "Parcours & Vision" },
+  { id: 3, title: "Mes compétences", subtitle: "Aptitudes transférables" },
+  { id: 4, title: "Support Social Media", subtitle: "Publication Facebook / Insta" },
+  { id: 5, title: "Support Newsletter", subtitle: "Email marketing B2B/B2C" },
+  { id: 6, title: "Affiche Promotionnelle", subtitle: "Campagne visuelle digitale" },
+  { id: 7, title: "Support Digital & Web", subtitle: "Synergie informatique & web" },
+  { id: 8, title: "Organisation & Reporting", subtitle: "Tableau de bord de suivi" },
+  { id: 9, title: "Projet Digital", subtitle: "Méthodologie créative" },
+  { id: 10, title: "Pourquoi moi ?", subtitle: "5 atouts différenciants" },
+  { id: 11, title: "Contact", subtitle: "Coordonnées & Échange" },
+];
